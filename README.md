@@ -3,7 +3,9 @@ Fox Proxy is a tool that leech proxies and return as list .
 
 ## Feature : 
 
-> Proxy Leech at least 100 proxies !
+> Proxy Leech at least 100 proxies to higher 400 - 600 proxies!
+
+> Leech Proxy Socks4 , Socks5 , HTTP
 
 > Fully Support , Easy !
 
