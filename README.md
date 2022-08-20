@@ -21,4 +21,5 @@ Fox Proxy is a tool that leech proxies and return as list .
 
 `python3 fox-proxy.py`
 
-#### Telegram Channel : T.ME/BlackFoxSecurityTeam
+#### Telegram Channel : [Telegram Channel Support Team](T.ME/BlackFoxSecurityTeam)
+
