@@ -1,0 +1,132 @@
+from pyfiglet import Figlet 
+import colorama
+import sys , time
+from core import finaly
+
+rd = colorama.Fore.RED
+cv = colorama.Fore.WHITE
+gn = colorama.Fore.GREEN
+mag = colorama.Fore.MAGENTA
+bl = colorama.Fore.BLACK
+yl = colorama.Fore.YELLOW
+cy = colorama.Fore.CYAN
+
+def banner():
+    return (Figlet(font="standard").renderText("Fox Proxy") + "\n~ Channel : T.me/BlackFoxSecurityTeam\n× Proxy Leecher with : Socks4,Socks5,http")
+
+def slash():
+    for i in range(10):
+        sys.stdout.write(rd + "\rWaiting [/]")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write("\rWaiting [|]")
+        time.sleep(0.5)
+        sys.stdout.flush()
+    sys.stdout.write("\r")
+    sys.stdout.flush()
+
+def fpe():
+    sys.stdout.write(mag + "C")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCr")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCre")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCrea")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreat")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreat")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreate")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated ")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated B")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By ")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By M")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Ma")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Max")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maxi")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maxim")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximu")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum ")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum R")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Ra")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Rad")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radi")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radik")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radika")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radikal")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radikali")
+    sys.stdout.flush()
+    time.sleep(0.1)
+    sys.stdout.write("\rCreated By Maximum Radikali ! ")
+    sys.stdout.flush()
+
+print (cy + banner())
+slash()
+fpe()
+time.sleep(3)
+mode = int(input(gn + "\n[1] http\n[2] socks4\n[3] socks5\n" + yl + "[~] Select An Option Via Number : "))
+if mode == 1:
+    finaly.http()
+    print (gn + "[&] The Operation has been successfully !" + cv)
+elif mode == 2:
+    finaly.socks4()
+    print (gn + "[&] The Operation has been successfully !" + cv)
+elif mode == 3:
+    finaly.socks5()
+    print (gn + "[&] The Operation has been successfully !" + cv)
+else:
+    print (rd + "[&] You Wrong Selected ! Try Again .")
+
